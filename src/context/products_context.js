@@ -66,7 +66,7 @@ export const ProductsProvider = ({ children }) => {
         <ProductsContext.Provider value={{ ...state, openSidebar, closeSidebar, fetchSingleProduct }}>{children}</ProductsContext.Provider>
     );
 };
-// make sure use
+
 export const useProductsContext = () => {
     return useContext(ProductsContext);
 };

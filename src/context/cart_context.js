@@ -17,7 +17,7 @@ export const CartProvider = ({ children }) => {
     <CartContext.Provider value='cart context'>{children}</CartContext.Provider>
   )
 }
-// make sure use
+
 export const useCartContext = () => {
   return useContext(CartContext)
 }
